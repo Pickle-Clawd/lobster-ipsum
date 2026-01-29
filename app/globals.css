@@ -1,5 +1,33 @@
 @import "tailwindcss";
 
+@theme {
+  /* Lobster color palette */
+  --color-lobster-50: #fef2f2;
+  --color-lobster-100: #fee2e2;
+  --color-lobster-200: #fecaca;
+  --color-lobster-300: #fca5a5;
+  --color-lobster-400: #f87171;
+  --color-lobster-500: #ef4444;
+  --color-lobster-600: #dc2626;
+  --color-lobster-700: #b91c1c;
+  --color-lobster-800: #991b1b;
+  --color-lobster-900: #7f1d1d;
+  --color-lobster-950: #450a0a;
+
+  /* Ocean color palette */
+  --color-ocean-50: #f0f9ff;
+  --color-ocean-100: #e0f2fe;
+  --color-ocean-200: #bae6fd;
+  --color-ocean-300: #7dd3fc;
+  --color-ocean-400: #38bdf8;
+  --color-ocean-500: #0ea5e9;
+  --color-ocean-600: #0284c7;
+  --color-ocean-700: #0369a1;
+  --color-ocean-800: #075985;
+  --color-ocean-900: #0c4a6e;
+  --color-ocean-950: #082f49;
+}
+
 body {
   font-family: var(--font-geist-sans);
 }
