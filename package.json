@@ -8,10 +8,16 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "keywords": ["lorem-ipsum", "generator", "lobster", "ocean"],
+  "keywords": [
+    "lorem-ipsum",
+    "generator",
+    "lobster",
+    "ocean"
+  ],
   "author": "Pickle-Clawd",
   "license": "MIT",
   "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.1.0",
     "@types/react": "^19.2.10",
     "@types/react-dom": "^19.2.3",
