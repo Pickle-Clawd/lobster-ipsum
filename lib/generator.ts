@@ -1,6 +1,6 @@
 import { sentences } from './sentences';
 
-export type Theme = 'lobster' | 'ocean' | 'seafood' | 'pirate';
+export type Theme = 'lobster' | 'ocean' | 'seafood' | 'pirate' | 'classic';
 
 export function generateLobsterIpsum(paragraphs: number, theme: Theme): string {
   const themeSentences = sentences[theme];

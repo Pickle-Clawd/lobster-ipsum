@@ -8,6 +8,7 @@ const themes: { id: Theme; emoji: string; label: string; color: string; activeCo
   { id: 'ocean', emoji: '🌊', label: 'Ocean', color: 'from-ocean-500/20 to-ocean-700/20', activeColor: 'from-ocean-500 to-ocean-700', description: 'Marine science' },
   { id: 'seafood', emoji: '🦐', label: 'Seafood', color: 'from-sand-400/20 to-lobster-600/20', activeColor: 'from-sand-400 to-lobster-600', description: 'Culinary delight' },
   { id: 'pirate', emoji: '🏴‍☠️', label: 'Pirate', color: 'from-ocean-600/20 to-ocean-900/20', activeColor: 'from-ocean-600 to-ocean-900', description: 'Nautical yarns' },
+  { id: 'classic', emoji: '📜', label: 'Classic', color: 'from-stone-400/20 to-stone-600/20', activeColor: 'from-stone-400 to-stone-600', description: 'Lorem ipsum' },
 ];
 
 export default function Generator() {
@@ -54,7 +55,7 @@ export default function Generator() {
             Choose Your Theme
           </label>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
             {themes.map((t) => (
               <button
                 key={t.id}

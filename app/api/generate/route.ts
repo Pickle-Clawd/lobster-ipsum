@@ -15,10 +15,10 @@ export async function GET(request: NextRequest) {
   }
 
   // Validate theme
-  const validThemes: Theme[] = ['lobster', 'ocean', 'seafood', 'pirate'];
+  const validThemes: Theme[] = ['lobster', 'ocean', 'seafood', 'pirate', 'classic'];
   if (!validThemes.includes(theme)) {
     return NextResponse.json(
-      { error: 'Theme must be one of: lobster, ocean, seafood, pirate' },
+      { error: 'Theme must be one of: lobster, ocean, seafood, pirate, classic' },
       { status: 400 }
     );
   }
