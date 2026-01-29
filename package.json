@@ -1,0 +1,26 @@
+{
+  "name": "lobster-ipsum",
+  "version": "1.0.0",
+  "description": "A lobster-themed Lorem Ipsum generator",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["lorem-ipsum", "generator", "lobster", "ocean"],
+  "author": "Pickle-Clawd",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^25.1.0",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.23",
+    "next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
+  }
+}
